@@ -58,3 +58,26 @@ ol li {
     padding: 25px 0;
     font-size: 50px;
 }
+
+ footer {
+    background-color: #0e6e02;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    padding: 30px 20px;
+ }
+
+ .meu-rodape{
+    max-width: 800px;
+    margin: auto;
+ }
+
+ footer h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+ }
+
+ footer p{
+    font-size: 20px;
+    margin-bottom: 15px;
+ }

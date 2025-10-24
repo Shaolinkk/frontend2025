@@ -45,10 +45,13 @@
             </div>
         </div>
         <footer>
-            <div class="Meu-rodape">
+            <div class="meu-rodape">
                 <h2>Frutas fresquinhas</h2>
-                <p>Criado por <strong>Angelo</strong> <span id="year"></span>Direitos Autorais</p>
+                <p>Criado por <strong>Angelo</strong> &copy; <span id="year"></span>Todos os direitos reservados</p>
             </div>
         </footer>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
     </body>
 </html>
