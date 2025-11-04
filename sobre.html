@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Meu Site de compras</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <a href="index.html">Início</a>
+               <a href="sobre.html">Sobre</a>
+                <a href="#">Sobre</a>
+                <a href="#">Fotos</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+
+        <h1>Minha página de vendas de frutas</h1>
+        <p>Projeto criado pela turma do Segundo ano de análise de sistemas, noa ano de 2025</p>
+        
+        <p>Este é um site de vendas de frutas.</p>
+        <footer>
+            <div class="meu-rodape">
+                <h2>Frutas fresquinhas</h2>
+                <p>Criado por <strong>Angelo</strong> &copy; <span id="year"></span>Todos os direitos reservados</p>
+            </div>
+        </footer>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
